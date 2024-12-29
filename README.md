@@ -6,9 +6,10 @@ A curated list of research works on efficient AI systems, methods, and applicati
 
 <!-- Along with the rapid development of AI and deep learning, DNN models have been widely used in various applications. However, the high computational comlexity of DNN models makes it difficult to deploy them on mobile and edge devices with limited computing resources. This repo collects the research works presenting a system that can efficiently execute DNN models on mobile and edge devices. -->
 
-ACM ***MobiSys***, ACM ***MobiCom***, ACM ***Sensys***, ACM ***EuroSys***, ACM ***IPSN***, ACM ***ASPLOS***, USENIX ***NSDI***, USENIX ***ATC***, ***MLSys***, ...
+<!-- ACM ***MobiSys***, ACM ***MobiCom***, ACM ***Sensys***, ACM ***EuroSys***, ACM ***IPSN***, ACM ***ASPLOS***, USENIX ***NSDI***, USENIX ***ATC***, ***MLSys***, ... -->
 
 #### Efficient Inference using Heterogeneous Processors (e.g., CPU, GPU, NPU, etc.)
+- [MobiCom 2024] Perceptual-Centric Image Super-Resolution using Heterogeneous Processors on Mobile Devices [[paper]](https://dl.acm.org/doi/10.1145/3636534.3690698)
 - [Sensys 2023] Miriam: Exploiting Elastic Kernels for Real-time Multi-DNN Inference on Edge GPU [[paper]](https://dl.acm.org/doi/10.1145/3625687.3625789)
 - [MobiSys 2023] NN-Stretch: Automatic Neural Network Branching for Parallel Inference on Heterogeneous Multi-Processors [[paper]](https://dl.acm.org/doi/pdf/10.1145/3472381.3479910)
 - [ATC 2023] Decentralized Application-Level Adaptive Scheduling for Multi-Instance DNNs on Open Mobile Devices [[paper]](https://www.usenix.org/system/files/atc23-sung.pdf)
@@ -25,6 +26,7 @@ ACM ***MobiSys***, ACM ***MobiCom***, ACM ***Sensys***, ACM ***EuroSys***, ACM *
 - [MobiCom 2021] Flexible high-resolution object detection on edge devices with tunable latency [[paper]](https://dl.acm.org/doi/abs/10.1145/3447993.3483274)
 
 #### On-device LLM
+- [arXiv 2024] PowerInfer-2: Fast Large Language Model Inference on a Smartphone [[paper]](https://arxiv.org/abs/2406.06282)
 - [ASPLOS 2025] Empowering 1000 tokens/second on-deviceLLM prefilling with mllm-NPU [[paper]](https://arxiv.org/pdf/2407.05858) [[code]](https://github.com/UbiquitousLearning/mllm)
 - [MobiCom 2024] MELTing point: Mobile Evaluation of Language Transformers [[paper]](https://arxiv.org/abs/2403.12844) [[code]](https://github.com/brave-experiments/MELT-public)
 - [MobiCom 2024] Mobile Foundation Model as Firmware [[paper]](https://arxiv.org/pdf/2308.14363) [[code]](https://github.com/UbiquitousLearning/MobileFM)
@@ -39,7 +41,7 @@ ACM ***MobiSys***, ACM ***MobiCom***, ACM ***Sensys***, ACM ***EuroSys***, ACM *
 - [MobiCom 2022] Mandheling: mixed-precision on-device DNN training with DSP offloading [[paper]](https://dl.acm.org/doi/abs/10.1145/3495243.3560545)
 - [MobiSys 2022] Memory-efficient DNN training on mobile devices [[paper]](https://dl.acm.org/doi/abs/10.1145/3498361.3539765)
 
-#### Server-Edge Collaborative Inference
+#### Edge-Cloud Collaborative Inference
 - [MobiSys 2024] ARISE: High-Capacity AR Offloading Inference Serving via Proactive Scheduling [[paper]](https://dl.acm.org/doi/10.1145/3643832.3661894)
 - [MobiSys 2024] CoActo: CoActive Neural Network Inference Offloading with Fine-grained and Concurrent Execution [[paper]](https://dl.acm.org/doi/10.1145/3643832.3661885)
 - [MobiCom 2023] AccuMO: Accuracy-Centric Multitask Offloading in Edge-Assisted Mobile Augmented Reality [[paper]](https://dl.acm.org/doi/pdf/10.1145/3570361.3592531)
@@ -52,11 +54,17 @@ ACM ***MobiSys***, ACM ***MobiCom***, ACM ***Sensys***, ACM ***EuroSys***, ACM *
 
 ### Efficient AI Serving Systems
 
+#### LLM Serving
+- [SOSP 2024] PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU [[paper]](https://arxiv.org/abs/2312.12456)
+- [SOSP 2023] Efficient Memory Management for Large Language Model Serving with PagedAttention [[paper]](https://arxiv.org/abs/2309.06180)
+
+#### Live ML Serving
+- [NSDI 2024] Vulcan: Automatic Query Planning for Live ML Analytics [[paper]](https://www.usenix.org/system/files/nsdi24-zhang-yiwen.pdf)
 
 
 ### Efficient AI methods
 <!-- DNN model pruning, quantization, compression, efficient ViT, etc. are the most popular methods to reduce the computational complexity of DNN models. This repo collects the research works presenting efficient AI methods. -->
-***CVPR***, ***ICLR***, ***NeurIPS***, ***ICML***, ***ICCV***, ***ECCV***, ***AAAI***
+<!-- ***CVPR***, ***ICLR***, ***NeurIPS***, ***ICML***, ***ICCV***, ***ECCV***, ***AAAI*** -->
 
 #### Elastic Neural Networks
 - [ICML 2024] FLEXTRON: Many-in-One Flexible Large Language Model [[paper]](https://arxiv.org/pdf/2406.10260)
