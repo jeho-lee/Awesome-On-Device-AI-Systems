@@ -1,10 +1,8 @@
-# Awesome research works for Efficient AI
+# Awesome research works for On-device AI Systems
 
-A curated list of research works on efficient AI systems, methods, and applications.
+A curated list of research works on efficient on-device AI systems, methods, and applications for mobile and edge devices.
 
-### Efficient AI Systems on Mobile and Edge Devices
-
-<!-- Along with the rapid development of AI and deep learning, DNN models have been widely used in various applications. However, the high computational comlexity of DNN models makes it difficult to deploy them on mobile and edge devices with limited computing resources. This repo collects the research works presenting a system that can efficiently execute DNN models on mobile and edge devices. -->
+<!-- ### Efficient On-device AI Systems for Mobile and Edge Devices -->
 
 <!-- ACM ***MobiSys***, ACM ***MobiCom***, ACM ***Sensys***, ACM ***EuroSys***, ACM ***IPSN***, ACM ***ASPLOS***, USENIX ***NSDI***, USENIX ***ATC***, ***MLSys***, ... -->
 
@@ -52,19 +50,7 @@ A curated list of research works on efficient AI systems, methods, and applicati
 - [MobiSys 2021] nn-Meter: towards accurate latency prediction of deep-learning model inference on diverse edge devices [[paper]](https://dl.acm.org/doi/10.1145/3458864.3467882)
 
 
-### Efficient AI Serving Systems
-
-#### LLM Serving
-- [SOSP 2024] PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU [[paper]](https://arxiv.org/abs/2312.12456)
-- [SOSP 2023] Efficient Memory Management for Large Language Model Serving with PagedAttention [[paper]](https://arxiv.org/abs/2309.06180)
-
-#### Live ML Serving
-- [NSDI 2024] Vulcan: Automatic Query Planning for Live ML Analytics [[paper]](https://www.usenix.org/system/files/nsdi24-zhang-yiwen.pdf)
-
-
-### Efficient AI methods
-<!-- DNN model pruning, quantization, compression, efficient ViT, etc. are the most popular methods to reduce the computational complexity of DNN models. This repo collects the research works presenting efficient AI methods. -->
-<!-- ***CVPR***, ***ICLR***, ***NeurIPS***, ***ICML***, ***ICCV***, ***ECCV***, ***AAAI*** -->
+<!-- ### Efficient AI methods
 
 #### Elastic Neural Networks
 - [ICML 2024] FLEXTRON: Many-in-One Flexible Large Language Model [[paper]](https://arxiv.org/pdf/2406.10260)
@@ -87,4 +73,4 @@ A curated list of research works on efficient AI systems, methods, and applicati
 - [ICCV 2023] Rethinking Vision Transformers for MobileNet Size and Speed [[paper]](https://arxiv.org/abs/2212.08059) [[code]](https://github.com/snap-research/EfficientFormer)
 - [ICCV 2023] EfficientViT: Multi-Scale Linear Attention for High-Resolution Dense Prediction [[paper]](https://arxiv.org/abs/2205.14756) [[code]](https://github.com/mit-han-lab/efficientvit)
 - [CVPR 2023] SparseViT: Revisiting Activation Sparsity for Efficient High-Resolution Vision Transformer [[paper]](https://arxiv.org/abs/2303.17605) [[code]](https://github.com/mit-han-lab/sparsevit)
-- [CVPR 2022 *Oral*] PoolFormer: MetaFormer Is Actually What You Need for Vision [[paper]](https://arxiv.org/abs/2111.11418) [[code]](https://github.com/sail-sg/poolformer)
+- [CVPR 2022 *Oral*] PoolFormer: MetaFormer Is Actually What You Need for Vision [[paper]](https://arxiv.org/abs/2111.11418) [[code]](https://github.com/sail-sg/poolformer) -->
