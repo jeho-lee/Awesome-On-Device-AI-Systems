@@ -53,25 +53,50 @@ A curated list of research works on efficient on-device AI systems, methods, and
 
 ## By Conference (2025~)
 
-#### MLSys 2025
+<details>
+<summary>MLSys 2025</summary>
+
 - MAS-Attention: Memory-Aware Stream Processing for Attention Acceleration on Resource-Constrained Edge Devices [[paper]](https://arxiv.org/pdf/2411.17720)
 - Efficient LLM Inference using Dynamic Input Pruning and Cache-Aware Masking [[paper]](https://arxiv.org/pdf/2412.01380)
 - TurboAttention: Efficient attention approximation for High Throughputs LLMs [[paper]](https://arxiv.org/pdf/2412.08585)
 - SampleAttention: Near-Lossless Acceleration of Long Context LLM Inference with Adaptive Structured Sparse Attention [[paper]](https://arxiv.org/pdf/2406.15486)
 - LeanAttention: Hardware-Aware Scalable Attention Mechanism for the Decode-Phase of Transformers [[paper]](https://arxiv.org/pdf/2405.10480)
 
-#### ASPLOS 2025
+</details>
+
+<details>
+<summary>ASPLOS 2025</summary>
+
 - Fast On-device LLM Inference with NPUs [[paper]](https://arxiv.org/abs/2407.05858) [[code]](https://github.com/UbiquitousLearning/mllm)
 
-#### EuroSys 2025
+</details>
+
+<details>
+<summary>EuroSys 2025</summary>
+
 - Flex: Fast, Accurate DNN Inference on Low-Cost Edges Using Heterogeneous Accelerator Execution [[paper]]()
 - T-MAC: CPU Renaissance via Table Lookup for Low-Bit LLM Deployment on Edge [[paper]]()
 
-#### SOSP 2025
+</details>
 
-#### MobiSys 2025
+<details>
+<summary>SOSP 2025</summary>
 
-#### MobiCom 2025
+</details>
 
-#### Preprint
+<details>
+<summary>MobiSys 2025</summary>
+
+</details>
+
+<details>
+<summary>MobiCom 2025</summary>
+
+</details>
+
+<details>
+<summary>Preprint 2025</summary>
+
 - HeteroLLM: Accelerating Large Language Model Inference on Mobile SoCs with Heterogeneous AI Accelerators [[paper]](https://arxiv.org/pdf/2501.14794)
+
+</details>
