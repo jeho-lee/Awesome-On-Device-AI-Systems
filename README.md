@@ -38,6 +38,7 @@ A curated list of research works on efficient on-device AI systems, methods, and
 - [MobiCom 2021] Flexible high-resolution object detection on edge devices with tunable latency [[paper]](https://dl.acm.org/doi/abs/10.1145/3447993.3483274)
 
 #### On-device Training, Model Adaptation Systems
+- [ASPLOS 2025] Nazar: Monitoring and Adapting ML Models on Mobile Devices 
 - [SenSys 2024] AdaShadow: Responsive Test-time Model Adaptation in Non-stationary Mobile Environments [[paper]](https://arxiv.org/pdf/2410.08256)
 - [SenSys 2023] EdgeFM: Leveraging Foundation Model for Open-set Learning on the Edge [[paper]](https://dl.acm.org/doi/10.1145/3625687.3625793)
 - [MobiCom 2023] Cost-effective On-device Continual Learning over Memory Hierarchy with Miro [[paper]](https://dl.acm.org/doi/pdf/10.1145/3570361.3613297)
@@ -68,6 +69,9 @@ A curated list of research works on efficient on-device AI systems, methods, and
 <summary>ASPLOS 2025</summary>
 
 - Fast On-device LLM Inference with NPUs [[paper]](https://arxiv.org/abs/2407.05858) [[code]](https://github.com/UbiquitousLearning/mllm)
+- Energy-aware Scheduling and Input Buffer Overflow Prevention for Energy-harvesting Systems
+- Generalizing Reuse Patterns for Efficient DNN on Microcontrollers
+- Nazar: Monitoring and Adapting ML Models on Mobile Devices
 
 </details>
 
