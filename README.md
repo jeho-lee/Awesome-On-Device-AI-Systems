@@ -15,8 +15,6 @@ A curated list of research works on efficient on-device AI systems, methods, and
 - [arXiv 2025] HeteroLLM: Accelerating Large Language Model Inference on Mobile SoCs with Heterogeneous AI Accelerators [[paper]](https://arxiv.org/pdf/2501.14794)
 - [ASPLOS 2025] Fast On-device LLM Inference with NPUs [[paper]](https://arxiv.org/abs/2407.05858) [[code]](https://github.com/UbiquitousLearning/mllm)
 - [arXiv 2024] PowerInfer-2: Fast Large Language Model Inference on a Smartphone [[paper]](https://arxiv.org/abs/2406.06282)
-- [MobiCom 2024] MELTing point: Mobile Evaluation of Language Transformers [[paper]](https://arxiv.org/abs/2403.12844) [[code]](https://github.com/brave-experiments/MELT-public)
-- [MobiCom 2024] Mobile Foundation Model as Firmware [[paper]](https://arxiv.org/pdf/2308.14363) [[code]](https://github.com/UbiquitousLearning/MobileFM)
 
 #### Inference Acceleration Systems with Heterogeneous Computing Processors (e.g., CPU, GPU, NPU, etc.)
 - [MobiSys 2024] Pantheon: Preemptible Multi-DNN Inference on Mobile Edge GPUs [[paper]](https://dl.acm.org/doi/pdf/10.1145/3643832.3661878)
@@ -49,6 +47,7 @@ A curated list of research works on efficient on-device AI systems, methods, and
 - [MobiSys 2022] Memory-efficient DNN training on mobile devices [[paper]](https://dl.acm.org/doi/abs/10.1145/3498361.3539765)
 
 #### Profilers
+- [MobiCom 2024] MELTing point: Mobile Evaluation of Language Transformers [[paper]](https://arxiv.org/abs/2403.12844) [[code]](https://github.com/brave-experiments/MELT-public)
 - [SenSys 2023] nnPerf: Demystifying DNN Runtime Inference Latency on Mobile Platforms [[paper]](https://dl.acm.org/doi/10.1145/3625687.3625797)
 - [MobiSys 2021] nn-Meter: towards accurate latency prediction of deep-learning model inference on diverse edge devices [[paper]](https://dl.acm.org/doi/10.1145/3458864.3467882)
 
