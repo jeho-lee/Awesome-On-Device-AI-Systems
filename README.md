@@ -17,6 +17,7 @@ A curated list of research works on efficient on-device AI systems, methods, and
 - [arXiv 2024] PowerInfer-2: Fast Large Language Model Inference on a Smartphone [[paper]](https://arxiv.org/abs/2406.06282)
 
 #### Inference Acceleration Systems with Heterogeneous Computing Processors (e.g., CPU, GPU, NPU, etc.)
+- [PPoPP 2024] Shared Memory-contention-aware Concurrent DNN Execution for Diversely Heterogeneous SoCs [[paper]](https://dl.acm.org/doi/pdf/10.1145/3627535.3638502)
 - [MobiSys 2024] Pantheon: Preemptible Multi-DNN Inference on Mobile Edge GPUs [[paper]](https://dl.acm.org/doi/pdf/10.1145/3643832.3661878)
 - [MobiCom 2024] Perceptual-Centric Image Super-Resolution using Heterogeneous Processors on Mobile Devices [[paper]](https://dl.acm.org/doi/10.1145/3636534.3690698)
 - [Sensys 2023] Miriam: Exploiting Elastic Kernels for Real-time Multi-DNN Inference on Edge GPU [[paper]](https://dl.acm.org/doi/10.1145/3625687.3625789)
