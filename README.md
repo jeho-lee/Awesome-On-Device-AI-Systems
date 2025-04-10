@@ -11,12 +11,17 @@ A curated list of research works on efficient on-device AI systems, methods, and
 - [MLSys 2025] Efficient LLM Inference using Dynamic Input Pruning and Cache-Aware Masking [[paper]](https://arxiv.org/pdf/2412.01380)
 - [NeurIPS 2022] FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness [[paper]](https://arxiv.org/pdf/2205.14135)
 
-#### On-device LLM Inference
+#### LLM Inference Acceleration on Mobile SoCs
 - [arXiv 2025] HeteroLLM: Accelerating Large Language Model Inference on Mobile SoCs with Heterogeneous AI Accelerators [[paper]](https://arxiv.org/pdf/2501.14794)
 - [ASPLOS 2025] Fast On-device LLM Inference with NPUs [[paper]](https://arxiv.org/abs/2407.05858) [[code]](https://github.com/UbiquitousLearning/mllm)
 - [arXiv 2024] PowerInfer-2: Fast Large Language Model Inference on a Smartphone [[paper]](https://arxiv.org/abs/2406.06282)
 
-#### Inference Acceleration with Heterogeneous Computing Processors (e.g., CPU, GPU, NPU, etc.)
+#### Hardware-aware Quantization of Foundation Models
+- [ISCA 2025] MicroScopiQ: Accelerating Foundational Models through Outlier-Aware Microscaling Quantization [[paper]](https://arxiv.org/pdf/2411.05282)
+- [MLSys 2024] AWQ: Activation-aware Weight Quantization for On-Device LLM Compression and Acceleration [[paper]](https://arxiv.org/pdf/2306.00978)
+- [ISCA 2023] OliVe: Accelerating Large Language Models via Hardware-friendly Outlier-Victim Pair Quantization [[paper]](https://arxiv.org/abs/2304.07493)
+
+#### Inference Acceleration using Heterogeneous Computing Processors (e.g., CPU, GPU, NPU, etc.)
 - [MobiSys 2025] ARIA: Optimizing Vision Foundation Model Inference on Heterogeneous Mobile Processors for Augmented Reality [[paper]]()
 - [PPoPP 2024] Shared Memory-contention-aware Concurrent DNN Execution for Diversely Heterogeneous SoCs [[paper]](https://dl.acm.org/doi/pdf/10.1145/3627535.3638502)
 - [MobiSys 2024] Pantheon: Preemptible Multi-DNN Inference on Mobile Edge GPUs [[paper]](https://dl.acm.org/doi/pdf/10.1145/3643832.3661878)
@@ -57,31 +62,25 @@ A curated list of research works on efficient on-device AI systems, methods, and
 
 <details>
 <summary>MLSys 2025</summary>
-
 - MAS-Attention: Memory-Aware Stream Processing for Attention Acceleration on Resource-Constrained Edge Devices [[paper]](https://arxiv.org/pdf/2411.17720)
 - Efficient LLM Inference using Dynamic Input Pruning and Cache-Aware Masking [[paper]](https://arxiv.org/pdf/2412.01380)
 - TurboAttention: Efficient attention approximation for High Throughputs LLMs [[paper]](https://arxiv.org/pdf/2412.08585)
 - SampleAttention: Near-Lossless Acceleration of Long Context LLM Inference with Adaptive Structured Sparse Attention [[paper]](https://arxiv.org/pdf/2406.15486)
 - LeanAttention: Hardware-Aware Scalable Attention Mechanism for the Decode-Phase of Transformers [[paper]](https://arxiv.org/pdf/2405.10480)
-
 </details>
 
 <details>
 <summary>ASPLOS 2025</summary>
-
 - Fast On-device LLM Inference with NPUs [[paper]](https://arxiv.org/abs/2407.05858) [[code]](https://github.com/UbiquitousLearning/mllm)
 - Energy-aware Scheduling and Input Buffer Overflow Prevention for Energy-harvesting Systems
 - Generalizing Reuse Patterns for Efficient DNN on Microcontrollers
 - Nazar: Monitoring and Adapting ML Models on Mobile Devices
-
 </details>
 
 <details>
 <summary>EuroSys 2025</summary>
-
 - Flex: Fast, Accurate DNN Inference on Low-Cost Edges Using Heterogeneous Accelerator Execution [[paper]]()
 - T-MAC: CPU Renaissance via Table Lookup for Low-Bit LLM Deployment on Edge [[paper]]()
-
 </details>
 
 <details>
@@ -91,7 +90,7 @@ A curated list of research works on efficient on-device AI systems, methods, and
 
 <details>
 <summary>MobiSys 2025</summary>
-
+- [MobiSys 2025] ARIA: Optimizing Vision Foundation Model Inference on Heterogeneous Mobile Processors for Augmented Reality [[paper]]()
 </details>
 
 <details>
@@ -101,7 +100,5 @@ A curated list of research works on efficient on-device AI systems, methods, and
 
 <details>
 <summary>Preprint 2025</summary>
-
 - HeteroLLM: Accelerating Large Language Model Inference on Mobile SoCs with Heterogeneous AI Accelerators [[paper]](https://arxiv.org/pdf/2501.14794)
-
 </details>
