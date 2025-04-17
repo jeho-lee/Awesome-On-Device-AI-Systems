@@ -4,8 +4,6 @@ A curated list of research works on efficient on-device AI systems, methods, and
 
 <!-- ACM ***MobiSys***, ACM ***MobiCom***, ACM ***Sensys***, ACM ***EuroSys***, ACM ***IPSN***, ACM ***ASPLOS***, USENIX ***NSDI***, USENIX ***ATC***, ***MLSys***, ... -->
 
-## By Topic
-
 #### Hardware-aware Attention Acceleration Methods
 - [MLSys 2025] MAS-Attention: Memory-Aware Stream Processing for Attention Acceleration on Resource-Constrained Edge Devices [[paper]](https://arxiv.org/pdf/2411.17720)
 - [MLSys 2025] Efficient LLM Inference using Dynamic Input Pruning and Cache-Aware Masking [[paper]](https://arxiv.org/pdf/2412.01380)
@@ -49,7 +47,7 @@ A curated list of research works on efficient on-device AI systems, methods, and
 - [MobiCom 2021] Flexible high-resolution object detection on edge devices with tunable latency [[paper]](https://dl.acm.org/doi/abs/10.1145/3447993.3483274)
 
 #### On-device Training, Model Adaptation
-- [ASPLOS 2025] Nazar: Monitoring and Adapting ML Models on Mobile Devices 
+- [ASPLOS 2025] Nazar: Monitoring and Adapting ML Models on Mobile Devices [[paper]](https://dl.acm.org/doi/pdf/10.1145/3669940.3707246)
 - [SenSys 2024] AdaShadow: Responsive Test-time Model Adaptation in Non-stationary Mobile Environments [[paper]](https://arxiv.org/pdf/2410.08256)
 - [SenSys 2023] EdgeFM: Leveraging Foundation Model for Open-set Learning on the Edge [[paper]](https://dl.acm.org/doi/10.1145/3625687.3625793)
 - [MobiCom 2023] Cost-effective On-device Continual Learning over Memory Hierarchy with Miro [[paper]](https://dl.acm.org/doi/pdf/10.1145/3570361.3613297)
