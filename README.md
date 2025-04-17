@@ -25,6 +25,7 @@ A curated list of research works on efficient on-device AI systems, methods, and
 - [ASPLOS 2024] SmartMem: Layout Transformation Elimination and Adaptation for Efficient DNN Execution on Mobile [[paper]](https://dl.acm.org/doi/pdf/10.1145/3620666.3651384)
 - [ASPLOS 2024] SoD<sup>2</sup>: Statically Optimizing Dynamic Deep Neural Network Execution [[paper]](https://dl.acm.org/doi/pdf/10.1145/3617232.3624869)
 - [MICRO 2022] GCD<sup>2</sup>: A Globally Optimizing Compiler for Mapping DNNs to Mobile DSPs [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9923837)
+- [PLDI 2021] DNNFusion: Accelerating Deep Neural Networks Execution with Advanced Operator Fusion [[paper]](https://dl.acm.org/doi/pdf/10.1145/3453483.3454083)
 
 #### Inference Acceleration using Heterogeneous Computing Processors (e.g., CPU, GPU, NPU, etc.)
 - [MobiSys 2025] ARIA: Optimizing Vision Foundation Model Inference on Heterogeneous Mobile Processors for Augmented Reality [[paper]]()
