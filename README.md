@@ -7,6 +7,7 @@ A curated list of research works on efficient on-device AI systems, methods, and
 #### Hardware-aware Attention Acceleration Methods
 - [MLSys 2025] MAS-Attention: Memory-Aware Stream Processing for Attention Acceleration on Resource-Constrained Edge Devices [[paper]](https://arxiv.org/pdf/2411.17720)
 - [MLSys 2025] Efficient LLM Inference using Dynamic Input Pruning and Cache-Aware Masking [[paper]](https://arxiv.org/pdf/2412.01380)
+- [ASPLOS 2023] FLAT: An Optimized Dataflow for Mitigating Attention Bottlenecks [[paper]](https://dl.acm.org/doi/10.1145/3575693.3575747)
 - [NeurIPS 2022] FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness [[paper]](https://arxiv.org/pdf/2205.14135)
 
 #### LLM Inference Acceleration on Mobile SoCs
