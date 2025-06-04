@@ -1,6 +1,7 @@
 # Awesome research works for on-device AI systems
 
-A curated list of research works on efficient on-device AI systems, methods, and applications for mobile and edge devices.
+A curated list of research works on efficient on-device AI systems, methods, and applications for mobile and edge devices.  
+Note: Some of the works are designed for inference acceleration on cloud/server infrastructure, which has much higher computational resources, but I also include them here if they can be potentially generalized to on-device inference use cases.
 
 <!-- ACM ***MobiSys***, ACM ***MobiCom***, ACM ***Sensys***, ACM ***EuroSys***, ACM ***IPSN***, ACM ***ASPLOS***, USENIX ***NSDI***, USENIX ***ATC***, ***MLSys***, ... -->
 
