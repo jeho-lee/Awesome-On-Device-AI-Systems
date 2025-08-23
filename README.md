@@ -6,7 +6,7 @@ Note: Some of the works are designed for inference acceleration on cloud/server 
 
 <!-- ACM ***MobiSys***, ACM ***MobiCom***, ACM ***Sensys***, ACM ***EuroSys***, ACM ***IPSN***, ACM ***ASPLOS***, USENIX ***NSDI***, USENIX ***ATC***, ***MLSys***, ... -->
 
-#### Attention Operation Acceleration
+#### Attention Acceleration
 - [[MLSys 2025] MAS-Attention: Memory-Aware Stream Processing for Attention Acceleration on Resource-Constrained Edge Devices](https://arxiv.org/pdf/2411.17720)
 - [[MLSys 2025] TurboAttention: Efficient attention approximation for High Throughputs LLMs](https://arxiv.org/pdf/2412.08585)
 - [[ASPLOS 2023] FLAT: An Optimized Dataflow for Mitigating Attention Bottlenecks](https://dl.acm.org/doi/10.1145/3575693.3575747)
@@ -17,18 +17,19 @@ Note: Some of the works are designed for inference acceleration on cloud/server 
 - [[ASPLOS 2025] Fast On-device LLM Inference with NPUs](https://arxiv.org/abs/2407.05858)
 - [[arXiv 2024] PowerInfer-2: Fast Large Language Model Inference on a Smartphone](https://arxiv.org/abs/2406.06282)
 
+#### Compiler-based ML Optimization
+- [[MLSys 2025] TileLink: Generating Efficient Compute-Communication Overlapping Kernels using Tile-Centric Primitives](https://arxiv.org/pdf/2503.20313)
+- [[ASPLOS 2024] SmartMem: Layout Transformation Elimination and Adaptation for Efficient DNN Execution on Mobile](https://dl.acm.org/doi/pdf/10.1145/3620666.3651384)
+- [[ASPLOS 2024] SoD<sup>2</sup>: Statically Optimizing Dynamic Deep Neural Network Execution](https://dl.acm.org/doi/pdf/10.1145/3617232.3624869)
+- [[MICRO 2023] Improving Data Reuse in NPU On-chip Memory with Interleaved Gradient Order for DNN Training](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10411391)
+- [[MICRO 2022] GCD<sup>2</sup>: A Globally Optimizing Compiler for Mapping DNNs to Mobile DSPs](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9923837)
+- [[PLDI 2021] DNNFusion: Accelerating Deep Neural Networks Execution with Advanced Operator Fusion](https://dl.acm.org/doi/pdf/10.1145/3453483.3454083)
+
 #### Hardware-aware Quantization
 - [[arXiv 2025] HALO: Hardware-aware quantization with low critical-path-delay weights for LLM acceleration](https://arxiv.org/pdf/2502.19662)
 - [[ISCA 2025] MicroScopiQ: Accelerating Foundational Models through Outlier-Aware Microscaling Quantization](https://arxiv.org/pdf/2411.05282)
 - [[MLSys 2024] AWQ: Activation-aware Weight Quantization for On-Device LLM Compression and Acceleration](https://arxiv.org/pdf/2306.00978)
 - [[ISCA 2023] OliVe: Accelerating Large Language Models via Hardware-friendly Outlier-Victim Pair Quantization](https://arxiv.org/abs/2304.07493)
-
-#### Compiler-based ML Optimization
-- [[MLSys 2025] TileLink: Generating Efficient Compute-Communication Overlapping Kernels using Tile-Centric Primitives](https://arxiv.org/pdf/2503.20313)
-- [[ASPLOS 2024] SmartMem: Layout Transformation Elimination and Adaptation for Efficient DNN Execution on Mobile](https://dl.acm.org/doi/pdf/10.1145/3620666.3651384)
-- [[ASPLOS 2024] SoD<sup>2</sup>: Statically Optimizing Dynamic Deep Neural Network Execution](https://dl.acm.org/doi/pdf/10.1145/3617232.3624869)
-- [[MICRO 2022] GCD<sup>2</sup>: A Globally Optimizing Compiler for Mapping DNNs to Mobile DSPs](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9923837)
-- [[PLDI 2021] DNNFusion: Accelerating Deep Neural Networks Execution with Advanced Operator Fusion](https://dl.acm.org/doi/pdf/10.1145/3453483.3454083)
 
 #### Inference Acceleration using Heterogeneous Computing Processors (e.g., CPU, GPU, NPU, etc.)
 - [[MobiSys 2025] ARIA: Optimizing Vision Foundation Model Inference on Heterogeneous Mobile Processors for Augmented Reality](https://arxiv.org/pdf/2501.14794)
