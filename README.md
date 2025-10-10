@@ -13,7 +13,8 @@ Note: Some of the works are designed for inference acceleration on cloud/server 
 - [[NeurIPS 2022] FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/pdf/2205.14135)
 
 #### LLM Inference Acceleration on Mobile SoCs
-- [[arXiv 2025] HeteroLLM: Accelerating Large Language Model Inference on Mobile SoCs with Heterogeneous AI Accelerators](https://arxiv.org/pdf/2501.14794)
+- [[EuroSys 2026] Scaling LLM Test-Time Compute with Mobile NPU on Smartphones](https://arxiv.org/pdf/2509.23324v1)
+- [[SOSP 2025] Characterizing Mobile SoC for Accelerating Heterogeneous LLM Inference](https://arxiv.org/abs/2501.14794)
 - [[ASPLOS 2025] Fast On-device LLM Inference with NPUs](https://arxiv.org/abs/2407.05858)
 - [[arXiv 2024] PowerInfer-2: Fast Large Language Model Inference on a Smartphone](https://arxiv.org/abs/2406.06282)
 
@@ -120,5 +121,6 @@ Note: Some of the works are designed for inference acceleration on cloud/server 
 <summary>Preprint 2025</summary>
 
 - HeteroLLM: Accelerating Large Language Model Inference on Mobile SoCs with Heterogeneous AI Accelerators
+
 
 </details>
