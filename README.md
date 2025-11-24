@@ -1,4 +1,4 @@
-# Awesome On-Device AI [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome On-Device AI Systems [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 A curated list of **efficient on-device AI systems**, including practical inference engines, benchmarks, and state-of-the-art research papers for mobile and edge devices.
 
