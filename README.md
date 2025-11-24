@@ -64,7 +64,8 @@ Note: Some of the works are designed for inference acceleration on cloud/server 
 - [ASPLOS 2023] [FLAT: An Optimized Dataflow for Mitigating Attention Bottlenecks](https://dl.acm.org/doi/10.1145/3575693.3575747)
 - [NeurIPS 2022] [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/pdf/2205.14135)
 
-#### LLM Inference Acceleration on Mobile SoCs
+#### LLM Inference on Mobile SoCs
+- [SenSys 2026] [LLM as a System Service on Mobile Devices](https://arxiv.org/pdf/2403.11805)
 - [EuroSys 2026] [Scaling LLM Test-Time Compute with Mobile NPU on Smartphones](https://arxiv.org/pdf/2509.23324v1)
 - [SOSP 2025] [Characterizing Mobile SoC for Accelerating Heterogeneous LLM Inference](https://arxiv.org/abs/2501.14794)
 - [ASPLOS 2025] [Fast On-device LLM Inference with NPUs](https://arxiv.org/abs/2407.05858)
