@@ -8,14 +8,14 @@ This repository bridges the gap between **Systems Research** (academic papers) a
 
 ## 📂 Table of Contents
 
-- [🚀 Practical Inference Engines](#-practical-inference-engines)
+- 🚀 Inference Engines
   - [General ML Workloads](#general-ml-workloads)
   - [LLM & GenAI Specialized](#llm--genai-specialized)
   - [Vendor-Specific SDKs (NPU/DSP)](#vendor-specific-sdks-npudsp)
 
 <!-- - [📊 Performance Benchmark](#-performance-benchmark) -->
 
-- [📝 Research Papers](#-research-papers)
+- 📝 Research Papers
   - [Attention Acceleration](#attention-acceleration)
   - [LLM Inference on Mobile SoCs](#llm-inference-on-mobile-socs)
   - [Compiler-based Optimization](#compiler-based-ml-optimization)
