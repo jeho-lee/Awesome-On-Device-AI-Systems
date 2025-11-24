@@ -2,7 +2,7 @@
 
 A curated list of **efficient on-device AI systems**, including practical inference engines, benchmarks, and state-of-the-art research papers for mobile and edge devices.
 
-This repository bridges the gap between **Systems Research** (academic papers) and **Practical Deployment** (engineering frameworks), focusing on optimizing LLMs, Vision Transformers, and Diffusion models on resource-constrained hardware.
+This repository bridges the gap between **Systems Research** (academic papers) and **Practical Deployment** (engineering frameworks), focusing on optimizing ML models (e.g., LLM/VLMs, ViTs, etc.) on resource-constrained hardware.
 
 <!-- ############################################################################# -->
 
