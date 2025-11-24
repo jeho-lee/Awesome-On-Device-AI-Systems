@@ -43,7 +43,7 @@ Frameworks and runtimes designed for deploying models on edge devices.
 * [MLC LLM](https://github.com/mlc-ai/mlc-llm) - Universal solution for deploying LLMs on any hardware (based on TVM).
 * [mllm](https://github.com/UbiquitousLearning/mllm) - A fast and lightweight LLM inference engine for mobile and edge devices.
 
-### Vendor-Specific SDKs (NPU/DSP)
+### Vendor-Specific SDKs
 * [Qualcomm QNN](https://www.qualcomm.com/developer/software/qualcomm-ai-engine-direct-sdk) - Qualcomm AI Stack for Snapdragon NPUs/DSPs.
 * [Apple Core ML](https://developer.apple.com/documentation/coreml) - Framework to integrate ML models into iOS/macOS apps.
 * [NVIDIA TensorRT](https://developer.nvidia.com/tensorrt) - SDK for high-performance deep learning inference on NVIDIA GPUs (including Jetson).
