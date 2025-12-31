@@ -84,12 +84,12 @@ Note: Some of the works are designed for inference acceleration on cloud/server 
 - [ISCA 2023] [OliVe: Accelerating Large Language Models via Hardware-friendly Outlier-Victim Pair Quantization](https://arxiv.org/abs/2304.07493)
 
 #### Inference Acceleration using Heterogeneous Computing Processors (e.g., CPU, GPU, NPU, etc.)
-- [MobiSys 2025] [ARIA: Optimizing Vision Foundation Model Inference on Heterogeneous Mobile Processors for Augmented Reality](https://arxiv.org/pdf/2501.14794)
+- [MobiSys 2025] [ARIA: Optimizing Vision Foundation Model Inference on Heterogeneous Mobile Processors for Augmented Reality](https://dl.acm.org/doi/10.1145/3711875.3729161)
 - [PPoPP 2024] [Shared Memory-contention-aware Concurrent DNN Execution for Diversely Heterogeneous SoCs](https://dl.acm.org/doi/pdf/10.1145/3627535.3638502)
 - [MobiSys 2024] [Pantheon: Preemptible Multi-DNN Inference on Mobile Edge GPUs](https://dl.acm.org/doi/pdf/10.1145/3643832.3661878)
 - [MobiCom 2024] [Perceptual-Centric Image Super-Resolution using Heterogeneous Processors on Mobile Devices](https://dl.acm.org/doi/10.1145/3636534.3690698)
 - [Sensys 2023] [Miriam: Exploiting Elastic Kernels for Real-time Multi-DNN Inference on Edge GPU](https://dl.acm.org/doi/10.1145/3625687.3625789)
-- [MobiSys 2023] [NN-Stretch: Automatic Neural Network Branching for Parallel Inference on Heterogeneous Multi-Processors](https://dl.acm.org/doi/pdf/10.1145/3472381.3479910)
+- [MobiSys 2023] [NN-Stretch: Automatic Neural Network Branching for Parallel Inference on Heterogeneous Multi-Processors](https://dl.acm.org/doi/pdf/10.1145/3581791.3596870)
 - [ATC 2023] [Decentralized Application-Level Adaptive Scheduling for Multi-Instance DNNs on Open Mobile Devices](https://www.usenix.org/system/files/atc23-sung.pdf)
 - [IPSN 2023] [PointSplit: Towards On-device 3D Object Detection with Heterogeneous Low-power Accelerators](https://dl.acm.org/doi/pdf/10.1145/3583120.3587045)
 - [SenSys 2022] [BlastNet: Exploiting Duo-Blocks for Cross-Processor Real-Time DNN Inference](https://dl.acm.org/doi/pdf/10.1145/3560905.3568520)
@@ -118,4 +118,5 @@ Note: Some of the works are designed for inference acceleration on cloud/server 
 #### Profilers
 - [MobiCom 2024] [MELTing point: Mobile Evaluation of Language Transformers](https://arxiv.org/abs/2403.12844) [[code]](https://github.com/brave-experiments/MELT-public)
 - [SenSys 2023] [nnPerf: Demystifying DNN Runtime Inference Latency on Mobile Platforms](https://dl.acm.org/doi/10.1145/3625687.3625797)
+
 - [MobiSys 2021] [nn-Meter: towards accurate latency prediction of deep-learning model inference on diverse edge devices](https://dl.acm.org/doi/10.1145/3458864.3467882)
