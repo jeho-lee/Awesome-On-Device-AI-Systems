@@ -98,6 +98,7 @@ Note: Some of the works are designed for inference acceleration on cloud/server 
 - [MobiSys 2022] [CoDL: efficient CPU-GPU co-execution for deep learning inference on mobile devices](https://dl.acm.org/doi/pdf/10.1145/3498361.3538932)
 
 #### Adaptive Inference for Optimized Resource Utilization
+- [ICCAD 2025] [Mitigating Resource Contention for Responsive On-device Machine Learning Inferences](https://doi.org/10.1109/ICCAD66269.2025.11240707)
 - [RTSS 2024] [FLEX: Adaptive Task Batch Scheduling with Elastic Fusion in Multi-Modal Multi-View Machine Perception](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10844787)
 - [MobiCom 2024] [Panopticus: Omnidirectional 3D Object Detection on Resource-constrained Edge Devices](https://arxiv.org/pdf/2410.01270)
 - [MobiSys 2023] [OmniLive: Super-Resolution Enhanced 360° Video Live Streaming for Mobile Devices](https://dl.acm.org/doi/pdf/10.1145/3581791.3596851)
@@ -121,3 +122,4 @@ Note: Some of the works are designed for inference acceleration on cloud/server 
 - [SenSys 2023] [nnPerf: Demystifying DNN Runtime Inference Latency on Mobile Platforms](https://dl.acm.org/doi/10.1145/3625687.3625797)
 
 - [MobiSys 2021] [nn-Meter: towards accurate latency prediction of deep-learning model inference on diverse edge devices](https://dl.acm.org/doi/10.1145/3458864.3467882)
+
