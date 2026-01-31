@@ -42,6 +42,7 @@ Frameworks and runtimes designed for deploying models on edge devices.
 * [llama.cpp](https://github.com/ggerganov/llama.cpp) - LLM inference in C/C++ with minimal dependencies.
 * [MLC LLM](https://github.com/mlc-ai/mlc-llm) - Universal solution for deploying LLMs on any hardware (based on TVM).
 * [mllm](https://github.com/UbiquitousLearning/mllm) - A fast and lightweight LLM inference engine for mobile and edge devices.
+* [OmniInfer](https://github.com/omnimind-ai/OmniInfer-VLM) - High-performance, on-device VLM inference with hybrid NPU acceleration.
 
 ### Vendor-Specific SDKs
 * [Qualcomm QNN](https://www.qualcomm.com/developer/software/qualcomm-ai-engine-direct-sdk) - Qualcomm AI Stack for Snapdragon NPUs/DSPs.
@@ -69,6 +70,7 @@ Note: Some of the works are designed for inference acceleration on cloud/server 
 - [SenSys 2026] [LLM as a System Service on Mobile Devices](https://arxiv.org/pdf/2403.11805)
 - [EuroSys 2026] [Scaling LLM Test-Time Compute with Mobile NPU on Smartphones](https://arxiv.org/pdf/2509.23324v1)
 - [SOSP 2025] [Characterizing Mobile SoC for Accelerating Heterogeneous LLM Inference](https://arxiv.org/abs/2501.14794)
+- [ASPLOS 2025] [Neuralink: Fast on-Device LLM Inference with Neuron Co-Activation Linking](https://dl.acm.org/doi/10.1145/3676642.3736114)
 - [ASPLOS 2025] [Fast On-device LLM Inference with NPUs](https://arxiv.org/abs/2407.05858)
 - [arXiv 2024] [PowerInfer-2: Fast Large Language Model Inference on a Smartphone](https://arxiv.org/abs/2406.06282)
 
@@ -122,4 +124,5 @@ Note: Some of the works are designed for inference acceleration on cloud/server 
 - [SenSys 2023] [nnPerf: Demystifying DNN Runtime Inference Latency on Mobile Platforms](https://dl.acm.org/doi/10.1145/3625687.3625797)
 
 - [MobiSys 2021] [nn-Meter: towards accurate latency prediction of deep-learning model inference on diverse edge devices](https://dl.acm.org/doi/10.1145/3458864.3467882)
+
 
