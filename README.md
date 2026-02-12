@@ -43,6 +43,7 @@ Frameworks and runtimes designed for deploying models on edge devices.
 * [MLC LLM](https://github.com/mlc-ai/mlc-llm) - Universal solution for deploying LLMs on any hardware (based on TVM).
 * [mllm](https://github.com/UbiquitousLearning/mllm) - A fast and lightweight LLM inference engine for mobile and edge devices.
 * [OmniInfer](https://github.com/omnimind-ai/OmniInfer-VLM) - High-performance, on-device VLM inference with hybrid NPU acceleration.
+* [RunAnywhere](https://github.com/RunanywhereAI/runanywhere-sdks) - Open-source SDK for running LLMs and multimodal models on-device across iOS, Android, and cross-platform apps.
 
 ### Vendor-Specific SDKs
 * [Qualcomm QNN](https://www.qualcomm.com/developer/software/qualcomm-ai-engine-direct-sdk) - Qualcomm AI Stack for Snapdragon NPUs/DSPs.
@@ -124,5 +125,6 @@ Note: Some of the works are designed for inference acceleration on cloud/server 
 - [SenSys 2023] [nnPerf: Demystifying DNN Runtime Inference Latency on Mobile Platforms](https://dl.acm.org/doi/10.1145/3625687.3625797)
 
 - [MobiSys 2021] [nn-Meter: towards accurate latency prediction of deep-learning model inference on diverse edge devices](https://dl.acm.org/doi/10.1145/3458864.3467882)
+
 
 
