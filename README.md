@@ -59,15 +59,8 @@ Frameworks and runtimes designed for deploying models on edge devices.
 
 Note: Some of the works are designed for inference acceleration on cloud/server infrastructure, which has much higher computational resources, but I also include them here if they can be potentially generalized to on-device inference use cases.
 
-<!-- ACM ***MobiSys***, ACM ***MobiCom***, ACM ***Sensys***, ACM ***EuroSys***, ACM ***IPSN***, ACM ***ASPLOS***, USENIX ***NSDI***, USENIX ***ATC***, ***MLSys***, ... -->
-
-#### Attention Acceleration
-- [MLSys 2025] [MAS-Attention: Memory-Aware Stream Processing for Attention Acceleration on Resource-Constrained Edge Devices](https://arxiv.org/pdf/2411.17720)
-- [MLSys 2025] [TurboAttention: Efficient attention approximation for High Throughputs LLMs](https://arxiv.org/pdf/2412.08585)
-- [ASPLOS 2023] [FLAT: An Optimized Dataflow for Mitigating Attention Bottlenecks](https://dl.acm.org/doi/10.1145/3575693.3575747)
-- [NeurIPS 2022] [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/pdf/2205.14135)
-
 #### LLM Inference on Mobile SoCs
+- [MLSys 2026] [Rethinking DVFS for Mobile LLMs: Unified Energy-Aware Scheduling with CORE](https://arxiv.org/abs/2507.02135)
 - [SenSys 2026] [LLM as a System Service on Mobile Devices](https://arxiv.org/pdf/2403.11805)
 - [EuroSys 2026] [Scaling LLM Test-Time Compute with Mobile NPU on Smartphones](https://arxiv.org/pdf/2509.23324v1)
 - [SOSP 2025] [Characterizing Mobile SoC for Accelerating Heterogeneous LLM Inference](https://arxiv.org/abs/2501.14794)
@@ -75,19 +68,31 @@ Note: Some of the works are designed for inference acceleration on cloud/server 
 - [ASPLOS 2025] [Fast On-device LLM Inference with NPUs](https://arxiv.org/abs/2407.05858)
 - [arXiv 2024] [PowerInfer-2: Fast Large Language Model Inference on a Smartphone](https://arxiv.org/abs/2406.06282)
 
+#### Mobile Processor Characterization & Optimization
+- [EuroSys 2026] viNPU: Optimizing Vision Transformer Inference on Mobile NPUs
+- [ASPLOS 2026] [FlashMem: Supporting Modern DNN Workloads on Mobile with GPU Memory Hierarchy Optimizations](https://arxiv.org/abs/2602.15379)
+- [ICS 2025] [TMModel: Modeling Texture Memory and Mobile GPU Performance to Accelerate DNN Computations](https://doi.org/10.1145/3721145.3725774)
+
 #### Compiler-based ML Optimization
-- [MLSys 2025] [TileLink: Generating Efficient Compute-Communication Overlapping Kernels using Tile-Centric Primitives](https://arxiv.org/pdf/2503.20313)
 - [ASPLOS 2024] [SmartMem: Layout Transformation Elimination and Adaptation for Efficient DNN Execution on Mobile](https://dl.acm.org/doi/pdf/10.1145/3620666.3651384)
 - [ASPLOS 2024] [SoD<sup>2</sup>: Statically Optimizing Dynamic Deep Neural Network Execution](https://dl.acm.org/doi/pdf/10.1145/3617232.3624869)
 - [MICRO 2023] [Improving Data Reuse in NPU On-chip Memory with Interleaved Gradient Order for DNN Training](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10411391)
 - [MICRO 2022] [GCD<sup>2</sup>: A Globally Optimizing Compiler for Mapping DNNs to Mobile DSPs](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9923837)
 - [PLDI 2021] [DNNFusion: Accelerating Deep Neural Networks Execution with Advanced Operator Fusion](https://dl.acm.org/doi/pdf/10.1145/3453483.3454083)
 
-#### Hardware-aware Quantization
+#### Attention Acceleration
+- [MLSys 2026] [IntAttention: A Fully Integer Attention Pipeline for Efficient Edge Inference](https://arxiv.org/abs/2511.21513)
+- [MLSys 2025] [MAS-Attention: Memory-Aware Stream Processing for Attention Acceleration on Resource-Constrained Edge Devices](https://arxiv.org/pdf/2411.17720)
+- [MLSys 2025] [TurboAttention: Efficient attention approximation for High Throughputs LLMs](https://arxiv.org/pdf/2412.08585)
+- [ASPLOS 2023] [FLAT: An Optimized Dataflow for Mitigating Attention Bottlenecks](https://dl.acm.org/doi/10.1145/3575693.3575747)
+- [NeurIPS 2022] [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/pdf/2205.14135)
+
+#### Quantization/Sparsity
+- [ASPLOS 2026] [oFFN: Outlier and Neuron-aware Structured FFN for Fast yet Accurate LLM Inference](https://dl.acm.org/doi/pdf/10.1145/3779212.3790194)
 - [MLSys 2024] [AWQ: Activation-aware Weight Quantization for On-Device LLM Compression and Acceleration](https://arxiv.org/pdf/2306.00978)
 - [ISCA 2023] [OliVe: Accelerating Large Language Models via Hardware-friendly Outlier-Victim Pair Quantization](https://arxiv.org/abs/2304.07493)
 
-#### Inference Acceleration using Heterogeneous Computing Processors (e.g., CPU, GPU, NPU, etc.)
+#### Inference Acceleration using Heterogeneous Processors (e.g., CPU, GPU, NPU, etc.)
 - [MobiSys 2025] [ARIA: Optimizing Vision Foundation Model Inference on Heterogeneous Mobile Processors for Augmented Reality](https://dl.acm.org/doi/10.1145/3711875.3729161)
 - [PPoPP 2024] [Shared Memory-contention-aware Concurrent DNN Execution for Diversely Heterogeneous SoCs](https://dl.acm.org/doi/pdf/10.1145/3627535.3638502)
 - [MobiSys 2024] [Pantheon: Preemptible Multi-DNN Inference on Mobile Edge GPUs](https://dl.acm.org/doi/pdf/10.1145/3643832.3661878)
@@ -123,8 +128,4 @@ Note: Some of the works are designed for inference acceleration on cloud/server 
 #### Profilers
 - [MobiCom 2024] [MELTing point: Mobile Evaluation of Language Transformers](https://arxiv.org/abs/2403.12844) [[code]](https://github.com/brave-experiments/MELT-public)
 - [SenSys 2023] [nnPerf: Demystifying DNN Runtime Inference Latency on Mobile Platforms](https://dl.acm.org/doi/10.1145/3625687.3625797)
-
 - [MobiSys 2021] [nn-Meter: towards accurate latency prediction of deep-learning model inference on diverse edge devices](https://dl.acm.org/doi/10.1145/3458864.3467882)
-
-
-
