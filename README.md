@@ -88,6 +88,8 @@ Note: Some of the works are designed for inference acceleration on cloud/server 
 - [NeurIPS 2022] [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/pdf/2205.14135)
 
 #### Quantization/Sparsity
+
+- **OneComp** — Fujitsu PTQ pipeline for LLMs (arXiv:2603.28845). [[Code](https://github.com/FujitsuResearch/OneCompression)]
 - [ASPLOS 2026] [oFFN: Outlier and Neuron-aware Structured FFN for Fast yet Accurate LLM Inference](https://dl.acm.org/doi/pdf/10.1145/3779212.3790194)
 - [MLSys 2024] [AWQ: Activation-aware Weight Quantization for On-Device LLM Compression and Acceleration](https://arxiv.org/pdf/2306.00978)
 - [ISCA 2023] [OliVe: Accelerating Large Language Models via Hardware-friendly Outlier-Victim Pair Quantization](https://arxiv.org/abs/2304.07493)
