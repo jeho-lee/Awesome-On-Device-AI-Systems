@@ -44,6 +44,7 @@ Frameworks and runtimes designed for deploying models on edge devices.
 * [mllm](https://github.com/UbiquitousLearning/mllm) - A fast and lightweight LLM inference engine for mobile and edge devices.
 * [OmniInfer](https://github.com/omnimind-ai/OmniInfer-VLM) - High-performance, on-device VLM inference with hybrid NPU acceleration.
 * [RunAnywhere](https://github.com/RunanywhereAI/runanywhere-sdks) - Open-source SDK for running LLMs and multimodal models on-device across iOS, Android, and cross-platform apps.
+* [vimin-core](https://github.com/pberlizov/vimin-public) - Python library for orchestrating distributed local LLM and Whisper inference across up to 10 machines. MLX on Apple Silicon, llama.cpp on any platform. Designed for air-gapped and privacy-sensitive deployments. MIT.
 
 ### Vendor-Specific SDKs
 * [Qualcomm QNN](https://www.qualcomm.com/developer/software/qualcomm-ai-engine-direct-sdk) - Qualcomm AI Stack for Snapdragon NPUs/DSPs.
