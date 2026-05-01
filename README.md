@@ -44,6 +44,7 @@ Frameworks and runtimes designed for deploying models on edge devices.
 * [mllm](https://github.com/UbiquitousLearning/mllm) - A fast and lightweight LLM inference engine for mobile and edge devices.
 * [OmniInfer](https://github.com/omnimind-ai/OmniInfer-VLM) - High-performance, on-device VLM inference with hybrid NPU acceleration.
 * [RunAnywhere](https://github.com/RunanywhereAI/runanywhere-sdks) - Open-source SDK for running LLMs and multimodal models on-device across iOS, Android, and cross-platform apps.
+* [Off Grid](https://github.com/alichherawalla/off-grid-mobile-ai) - Open-source iOS/Android app running LLMs (Llama, Qwen, Gemma, Phi, DeepSeek) entirely on-device via llama.cpp. Includes voice (whisper.cpp), vision, on-device image generation, and tool calling.
 
 ### Vendor-Specific SDKs
 * [Qualcomm QNN](https://www.qualcomm.com/developer/software/qualcomm-ai-engine-direct-sdk) - Qualcomm AI Stack for Snapdragon NPUs/DSPs.
