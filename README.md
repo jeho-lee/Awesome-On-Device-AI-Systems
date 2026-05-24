@@ -67,6 +67,7 @@ Note: Some of the works are designed for inference acceleration on cloud/server 
 - [SOSP 2025] [Characterizing Mobile SoC for Accelerating Heterogeneous LLM Inference](https://arxiv.org/abs/2501.14794)
 - [ASPLOS 2025] [Neuralink: Fast on-Device LLM Inference with Neuron Co-Activation Linking](https://dl.acm.org/doi/10.1145/3676642.3736114)
 - [ASPLOS 2025] [Fast On-device LLM Inference with NPUs](https://arxiv.org/abs/2407.05858)
+- [arXiv 2025] [T-MAN: Enabling End-to-End Low-Bit LLM Inference on NPUs via Unified Table Lookup](https://arxiv.org/abs/2511.11248)
 - [arXiv 2024] [PowerInfer-2: Fast Large Language Model Inference on a Smartphone](https://arxiv.org/abs/2406.06282)
 
 #### Mobile Processor Characterization & Optimization
@@ -83,6 +84,7 @@ Note: Some of the works are designed for inference acceleration on cloud/server 
 
 #### Attention Acceleration
 - [MLSys 2026] [IntAttention: A Fully Integer Attention Pipeline for Efficient Edge Inference](https://arxiv.org/abs/2511.21513)
+- [MobiSys 2026] [ShadowNPU: System and Algorithm Co-design for NPU-Centric On-Device LLM Inference](https://arxiv.org/abs/2508.16703)
 - [MLSys 2025] [MAS-Attention: Memory-Aware Stream Processing for Attention Acceleration on Resource-Constrained Edge Devices](https://arxiv.org/pdf/2411.17720)
 - [MLSys 2025] [TurboAttention: Efficient attention approximation for High Throughputs LLMs](https://arxiv.org/pdf/2412.08585)
 - [ASPLOS 2023] [FLAT: An Optimized Dataflow for Mitigating Attention Bottlenecks](https://dl.acm.org/doi/10.1145/3575693.3575747)
