@@ -38,14 +38,6 @@ Frameworks and runtimes designed for deploying models on edge devices.
 * [MNN](https://github.com/alibaba/MNN) - Lightweight deep learning framework by Alibaba.
 * [NCNN](https://github.com/Tencent/ncnn) - High-performance NN inference framework by Tencent.
 
-### LLM & GenAI Specialized
-* [llama.cpp](https://github.com/ggerganov/llama.cpp) - LLM inference in C/C++ with minimal dependencies.
-* [MLC LLM](https://github.com/mlc-ai/mlc-llm) - Universal solution for deploying LLMs on any hardware (based on TVM).
-* [mllm](https://github.com/UbiquitousLearning/mllm) - A fast and lightweight LLM inference engine for mobile and edge devices.
-* [OmniInfer](https://github.com/omnimind-ai/OmniInfer-VLM) - High-performance, on-device VLM inference with hybrid NPU acceleration.
-* [RunAnywhere](https://github.com/RunanywhereAI/runanywhere-sdks) - Open-source SDK for running LLMs and multimodal models on-device across iOS, Android, and cross-platform apps.
-* [Off Grid](https://github.com/alichherawalla/off-grid-mobile-ai) - Open-source iOS/Android app running LLMs (Llama, Qwen, Gemma, Phi, DeepSeek) entirely on-device via llama.cpp. Includes voice (whisper.cpp), vision, on-device image generation, and tool calling.
-
 ### Vendor-Specific SDKs
 * [Qualcomm QNN](https://www.qualcomm.com/developer/software/qualcomm-ai-engine-direct-sdk) - Qualcomm AI Stack for Snapdragon NPUs/DSPs.
 * [Apple Core ML](https://developer.apple.com/documentation/coreml) - Framework to integrate ML models into iOS/macOS apps.
@@ -54,6 +46,16 @@ Frameworks and runtimes designed for deploying models on edge devices.
 * [Intel OpenVINO](https://github.com/openvinotoolkit/openvino) - Toolkit for optimizing and deploying AI inference on Intel hardware (CPU/GPU/NPU).
 * [MediaTek NeuroPilot](https://neuropilot.mediatek.com/) - AI ecosystem and SDK for MediaTek NPUs.
 
+### LLM & GenAI Specialized
+* [llama.cpp](https://github.com/ggerganov/llama.cpp) - LLM inference in C/C++ with minimal dependencies.
+* [MLC LLM](https://github.com/mlc-ai/mlc-llm) - Universal solution for deploying LLMs on any hardware (based on TVM).
+* [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) - NVIDIA GPU-optimized LLM inference library, relevant for Jetson-class edge devices.
+* [mllm](https://github.com/UbiquitousLearning/mllm) - A fast and lightweight LLM inference engine for mobile and edge devices.
+* [MLX LM](https://github.com/ml-explore/mlx-lm) - LLM inference and fine-tuning toolkit built on MLX for Apple silicon.
+* [OmniInfer](https://github.com/omnimind-ai/OmniInfer-VLM) - High-performance, on-device VLM inference with hybrid NPU acceleration.
+* [RunAnywhere](https://github.com/RunanywhereAI/runanywhere-sdks) - Open-source SDK for running LLMs and multimodal models on-device across iOS, Android, and cross-platform apps.
+* [Off Grid](https://github.com/alichherawalla/off-grid-mobile-ai) - Open-source iOS/Android app running LLMs (Llama, Qwen, Gemma, Phi, DeepSeek) entirely on-device via llama.cpp. Includes voice (whisper.cpp), vision, on-device image generation, and tool calling.
+
 <!-- ############################################################################# -->
 
 ## 📝 Research Papers
@@ -61,13 +63,14 @@ Frameworks and runtimes designed for deploying models on edge devices.
 Note: Some of the works are designed for inference acceleration on cloud/server infrastructure, which has much higher computational resources, but I also include them here if they can be potentially generalized to on-device inference use cases.
 
 #### LLM Inference on Mobile SoCs
+- [OSDI 2026] Inference in the Shadows: Taming Memory Bandwidth Contention in Mobile LLM Inference with Sereno
+- [MobiSys 2026] [Agent-X: Full Pipeline Acceleration of On-device AI Agents](https://arxiv.org/pdf/2605.10380)
 - [MLSys 2026] [Rethinking DVFS for Mobile LLMs: Unified Energy-Aware Scheduling with CORE](https://arxiv.org/abs/2507.02135)
 - [SenSys 2026] [LLM as a System Service on Mobile Devices](https://arxiv.org/pdf/2403.11805)
 - [EuroSys 2026] [Scaling LLM Test-Time Compute with Mobile NPU on Smartphones](https://arxiv.org/pdf/2509.23324v1)
 - [SOSP 2025] [Characterizing Mobile SoC for Accelerating Heterogeneous LLM Inference](https://arxiv.org/abs/2501.14794)
 - [ASPLOS 2025] [Neuralink: Fast on-Device LLM Inference with Neuron Co-Activation Linking](https://dl.acm.org/doi/10.1145/3676642.3736114)
 - [ASPLOS 2025] [Fast On-device LLM Inference with NPUs](https://arxiv.org/abs/2407.05858)
-- [arXiv 2025] [T-MAN: Enabling End-to-End Low-Bit LLM Inference on NPUs via Unified Table Lookup](https://arxiv.org/abs/2511.11248)
 - [arXiv 2024] [PowerInfer-2: Fast Large Language Model Inference on a Smartphone](https://arxiv.org/abs/2406.06282)
 
 #### Mobile Processor Characterization & Optimization
