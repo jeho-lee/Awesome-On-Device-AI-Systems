@@ -20,8 +20,8 @@ This repository bridges the gap between **Systems Research** (academic papers) a
   - [LLM Inference on Mobile SoCs](#llm-inference-on-mobile-socs)
   - [Compiler-based Optimization](#compiler-based-ml-optimization)
   - [Hardware-aware Quantization](#hardware-aware-quantization)
-  - [Heterogeneous Computing](#inference-acceleration-using-heterogeneous-computing-processors-eg-cpu-gpu-npu-etc)
-  - [Adaptive Inference](#adaptive-inference-for-optimized-resource-utilization)
+  - [Application-centric On-device AI Systems](#application-centric-on-device-ai-systems)
+  - [Multi-DNN / Heterogeneous Runtime Scheduling](#multi-dnn--heterogeneous-runtime-scheduling)
   - [On-device Training](#on-device-training-model-adaptation)
   - [Profilers](#profilers)
 
@@ -98,27 +98,23 @@ Note: Some of the works are designed for inference acceleration on cloud/server 
 - [MLSys 2024] [AWQ: Activation-aware Weight Quantization for On-Device LLM Compression and Acceleration](https://arxiv.org/pdf/2306.00978)
 - [ISCA 2023] [OliVe: Accelerating Large Language Models via Hardware-friendly Outlier-Victim Pair Quantization](https://arxiv.org/abs/2304.07493)
 
-#### Inference Acceleration using Heterogeneous Processors (e.g., CPU, GPU, NPU, etc.)
+#### Application-centric On-device AI Systems
 - [MobiSys 2025] [ARIA: Optimizing Vision Foundation Model Inference on Heterogeneous Mobile Processors for Augmented Reality](https://dl.acm.org/doi/10.1145/3711875.3729161)
-- [PPoPP 2024] [Shared Memory-contention-aware Concurrent DNN Execution for Diversely Heterogeneous SoCs](https://dl.acm.org/doi/pdf/10.1145/3627535.3638502)
-- [MobiSys 2024] [Pantheon: Preemptible Multi-DNN Inference on Mobile Edge GPUs](https://dl.acm.org/doi/pdf/10.1145/3643832.3661878)
-- [MobiCom 2024] [Perceptual-Centric Image Super-Resolution using Heterogeneous Processors on Mobile Devices](https://dl.acm.org/doi/10.1145/3636534.3690698)
-- [Sensys 2023] [Miriam: Exploiting Elastic Kernels for Real-time Multi-DNN Inference on Edge GPU](https://dl.acm.org/doi/10.1145/3625687.3625789)
-- [MobiSys 2023] [NN-Stretch: Automatic Neural Network Branching for Parallel Inference on Heterogeneous Multi-Processors](https://dl.acm.org/doi/pdf/10.1145/3581791.3596870)
-- [ATC 2023] [Decentralized Application-Level Adaptive Scheduling for Multi-Instance DNNs on Open Mobile Devices](https://www.usenix.org/system/files/atc23-sung.pdf)
-- [IPSN 2023] [PointSplit: Towards On-device 3D Object Detection with Heterogeneous Low-power Accelerators](https://dl.acm.org/doi/pdf/10.1145/3583120.3587045)
-- [SenSys 2022] [BlastNet: Exploiting Duo-Blocks for Cross-Processor Real-Time DNN Inference](https://dl.acm.org/doi/pdf/10.1145/3560905.3568520)
-- [MobiSys 2022] [Band: Coordinated Multi-DNN Inference on Heterogeneous Mobile Processors](https://dl.acm.org/doi/pdf/10.1145/3498361.3538948)
-- [MobiSys 2022] [CoDL: efficient CPU-GPU co-execution for deep learning inference on mobile devices](https://dl.acm.org/doi/pdf/10.1145/3498361.3538932)
-
-#### Adaptive Inference for Optimized Resource Utilization
-- [ICCAD 2025] [Mitigating Resource Contention for Responsive On-device Machine Learning Inferences](https://doi.org/10.1109/ICCAD66269.2025.11240707)
-- [RTSS 2024] [FLEX: Adaptive Task Batch Scheduling with Elastic Fusion in Multi-Modal Multi-View Machine Perception](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10844787)
 - [MobiCom 2024] [Panopticus: Omnidirectional 3D Object Detection on Resource-constrained Edge Devices](https://arxiv.org/pdf/2410.01270)
+- [MobiCom 2024] [Perceptual-Centric Image Super-Resolution using Heterogeneous Processors on Mobile Devices](https://dl.acm.org/doi/10.1145/3636534.3690698)
+- [IPSN 2023] [PointSplit: Towards On-device 3D Object Detection with Heterogeneous Low-power Accelerators](https://dl.acm.org/doi/pdf/10.1145/3583120.3587045)
 - [MobiSys 2023] [OmniLive: Super-Resolution Enhanced 360° Video Live Streaming for Mobile Devices](https://dl.acm.org/doi/pdf/10.1145/3581791.3596851)
-- [MobiSys 2023] [HarvNet: Resource-Optimized Operation of Multi-Exit Deep Neural Networks on Energy Harvesting Devices](https://dl.acm.org/doi/abs/10.1145/3581791.3596845)
 - [MobiCom 2022] [NeuLens: Spatial-based Dynamic Acceleration of Convolutional Neural Networks on Edge](https://dl.acm.org/doi/pdf/10.1145/3495243.3560528)
 - [MobiCom 2021] [Flexible high-resolution object detection on edge devices with tunable latency](https://dl.acm.org/doi/abs/10.1145/3447993.3483274)
+
+#### Multi-DNN / Heterogeneous Runtime Scheduling
+- [PPoPP 2024] [Shared Memory-contention-aware Concurrent DNN Execution for Diversely Heterogeneous SoCs](https://dl.acm.org/doi/pdf/10.1145/3627535.3638502)
+- [RTSS 2024] [FLEX: Adaptive Task Batch Scheduling with Elastic Fusion in Multi-Modal Multi-View Machine Perception](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10844787)
+- [MobiSys 2024] [Pantheon: Preemptible Multi-DNN Inference on Mobile Edge GPUs](https://dl.acm.org/doi/pdf/10.1145/3643832.3661878)
+- [Sensys 2023] [Miriam: Exploiting Elastic Kernels for Real-time Multi-DNN Inference on Edge GPU](https://dl.acm.org/doi/10.1145/3625687.3625789)
+- [ATC 2023] [Decentralized Application-Level Adaptive Scheduling for Multi-Instance DNNs on Open Mobile Devices](https://www.usenix.org/system/files/atc23-sung.pdf)
+- [MobiSys 2022] [Band: Coordinated Multi-DNN Inference on Heterogeneous Mobile Processors](https://dl.acm.org/doi/pdf/10.1145/3498361.3538948)
+- [MobiSys 2022] [CoDL: efficient CPU-GPU co-execution for deep learning inference on mobile devices](https://dl.acm.org/doi/pdf/10.1145/3498361.3538932)
 
 #### On-device Training, Model Adaptation
 - [ASPLOS 2025] [Nazar: Monitoring and Adapting ML Models on Mobile Devices](https://dl.acm.org/doi/pdf/10.1145/3669940.3707246)
