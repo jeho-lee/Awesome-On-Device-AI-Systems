@@ -16,15 +16,16 @@ This repository bridges the gap between **Systems Research** (academic papers) a
 <!-- - [📊 Performance Benchmark](#-performance-benchmark) -->
 
 - 📝 Research Papers
-  - [Attention Acceleration](#attention-acceleration)
   - [LLM Inference on Mobile SoCs](#llm-inference-on-mobile-socs)
-  - [Compiler-based Optimization](#compiler-based-ml-optimization)
-  - [Hardware-aware Quantization](#hardware-aware-quantization)
+  - [Mobile Processor Characterization & Optimization](#mobile-processor-characterization--optimization)
+  - [Compiler-based ML Optimization](#compiler-based-ml-optimization)
+  - [Attention Acceleration](#attention-acceleration)
+  - [Quantization/Sparsity](#quantizationsparsity)
   - [Application-centric On-device AI Systems](#application-centric-on-device-ai-systems)
   - [Multi-DNN / Heterogeneous Runtime Scheduling](#multi-dnn--heterogeneous-runtime-scheduling)
-  - [On-device Training](#on-device-training-model-adaptation)
+  - [On-device Training, Model Adaptation](#on-device-training-model-adaptation)
   - [Profilers](#profilers)
-
+  
 <!-- ############################################################################# -->
 
 ## 🚀 Inference Engines
