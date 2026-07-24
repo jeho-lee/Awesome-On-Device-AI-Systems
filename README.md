@@ -56,6 +56,7 @@ Frameworks and runtimes designed for deploying models on edge devices.
 * [OmniInfer](https://github.com/omnimind-ai/OmniInfer-VLM) - High-performance, on-device VLM inference with hybrid NPU acceleration.
 * [RunAnywhere](https://github.com/RunanywhereAI/runanywhere-sdks) - Open-source SDK for running LLMs and multimodal models on-device across iOS, Android, and cross-platform apps.
 * [Off Grid](https://github.com/alichherawalla/off-grid-mobile-ai) - Open-source iOS/Android app running LLMs (Llama, Qwen, Gemma, Phi, DeepSeek) entirely on-device via llama.cpp. Includes voice (whisper.cpp), vision, on-device image generation, and tool calling.
+* [Xybrid](https://github.com/xybrid-ai/xybrid) - Open-source, local-first runtime for running LLMs, ASR, and TTS natively in apps and games.
 
 <!-- ############################################################################# -->
 
