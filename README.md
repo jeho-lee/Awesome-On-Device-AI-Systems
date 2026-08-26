@@ -49,6 +49,7 @@ Frameworks and runtimes designed for deploying models on edge devices.
 
 ### LLM & GenAI Specialized
 * [llama.cpp](https://github.com/ggerganov/llama.cpp) - LLM inference in C/C++ with minimal dependencies.
+* [qwen3.8-27b-in-c](https://github.com/shyringo/qwen3.8-27b-in-c) - Native C engine that runs Qwen3.8-27B GGUFs on one laptop CPU, with no GPU or Python and a tested 8 GB memory path.
 * [MLC LLM](https://github.com/mlc-ai/mlc-llm) - Universal solution for deploying LLMs on any hardware (based on TVM).
 * [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) - NVIDIA GPU-optimized LLM inference library, relevant for Jetson-class edge devices.
 * [mllm](https://github.com/UbiquitousLearning/mllm) - A fast and lightweight LLM inference engine for mobile and edge devices.
