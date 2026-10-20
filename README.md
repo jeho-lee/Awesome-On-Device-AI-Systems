@@ -53,6 +53,7 @@ Frameworks and runtimes designed for deploying models on edge devices.
 * [mllm](https://github.com/UbiquitousLearning/mllm) - A fast and lightweight LLM inference engine for mobile and edge devices.
 * [MLX LM](https://github.com/ml-explore/mlx-lm) - LLM inference and fine-tuning toolkit built on MLX for Apple silicon.
 * [FluidAudio](https://github.com/FluidInference/FluidAudio) - Local audio AI SDK for Apple platforms with ASR, speaker diarization, VAD, and TTS optimized for Apple Neural Engine.
+* [VoxRT](https://github.com/VoxRT) - On-device voice AI SDK with wake-word, VAD, keyword spotting, and streaming ASR, running natively on Linux (aarch64), iOS, Android, and WebAssembly via a shared Rust runtime.
 * [RunAnywhere](https://github.com/RunanywhereAI/runanywhere-sdks) - Open-source SDK for running LLMs and multimodal models on-device across iOS, Android, and cross-platform apps.
 * [Off Grid](https://github.com/alichherawalla/off-grid-mobile-ai) - Open-source iOS/Android app running LLMs (Llama, Qwen, Gemma, Phi, DeepSeek) entirely on-device via llama.cpp. Includes voice (whisper.cpp), vision, on-device image generation, and tool calling.
 
