@@ -55,6 +55,7 @@ Frameworks and runtimes designed for deploying models on edge devices.
 * [FluidAudio](https://github.com/FluidInference/FluidAudio) - Local audio AI SDK for Apple platforms with ASR, speaker diarization, VAD, and TTS optimized for Apple Neural Engine.
 * [RunAnywhere](https://github.com/RunanywhereAI/runanywhere-sdks) - Open-source SDK for running LLMs and multimodal models on-device across iOS, Android, and cross-platform apps.
 * [Off Grid](https://github.com/alichherawalla/off-grid-mobile-ai) - Open-source iOS/Android app running LLMs (Llama, Qwen, Gemma, Phi, DeepSeek) entirely on-device via llama.cpp. Includes voice (whisper.cpp), vision, on-device image generation, and tool calling.
+* [Desert Ant Labs](https://github.com/Desert-Ant-Labs/desert-ant-core) - Small task models (speech recognition, PII redaction, moderation, language ID) behind one SDK for Swift, Kotlin and JavaScript.
 
 <!-- ############################################################################# -->
 
