@@ -56,6 +56,7 @@ Frameworks and runtimes designed for deploying models on edge devices.
 * [RunAnywhere](https://github.com/RunanywhereAI/runanywhere-sdks) - Open-source SDK for running LLMs and multimodal models on-device across iOS, Android, and cross-platform apps.
 * [Off Grid](https://github.com/alichherawalla/off-grid-mobile-ai) - Open-source iOS/Android app running LLMs (Llama, Qwen, Gemma, Phi, DeepSeek) entirely on-device via llama.cpp. Includes voice (whisper.cpp), vision, on-device image generation, and tool calling.
 * [Kapitsa](https://github.com/nace-ai/kapitsa) - Native C++ LLM inference engine for Apple silicon Macs using hand-written Metal kernels and the Apple Neural Engine (no MLX or llama.cpp runtime), with OpenAI- and Anthropic-compatible APIs.
+* [Desert Ant Labs](https://github.com/Desert-Ant-Labs/desert-ant-core) - Small task models (speech recognition, PII redaction, moderation, language ID) behind one SDK for Swift, Kotlin and JavaScript.
 
 <!-- ############################################################################# -->
 
