@@ -57,6 +57,7 @@ Frameworks and runtimes designed for deploying models on edge devices.
 * [Off Grid](https://github.com/alichherawalla/off-grid-mobile-ai) - Open-source iOS/Android app running LLMs (Llama, Qwen, Gemma, Phi, DeepSeek) entirely on-device via llama.cpp. Includes voice (whisper.cpp), vision, on-device image generation, and tool calling.
 * [Kapitsa](https://github.com/nace-ai/kapitsa) - Native C++ LLM inference engine for Apple silicon Macs using hand-written Metal kernels and the Apple Neural Engine (no MLX or llama.cpp runtime), with OpenAI- and Anthropic-compatible APIs.
 * [Desert Ant Labs](https://github.com/Desert-Ant-Labs/desert-ant-core) - Small task models (speech recognition, PII redaction, moderation, language ID) behind one SDK for Swift, Kotlin and JavaScript.
+* [FRACTAL](https://github.com/Fractal-Compute-Orchestrations/FractalWorkspace) - Source-available non-commercial framework for thermal-gated Android edge training and pipeline-sliced inference, using 64-element micro-block INT4 quantization (7.1x wire reduction) and ExecuTorch partitioning.
 
 <!-- ############################################################################# -->
 
