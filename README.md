@@ -58,6 +58,7 @@ Frameworks and runtimes designed for deploying models on edge devices.
 * [Kapitsa](https://github.com/nace-ai/kapitsa) - Native C++ LLM inference engine for Apple silicon Macs using hand-written Metal kernels and the Apple Neural Engine (no MLX or llama.cpp runtime), with OpenAI- and Anthropic-compatible APIs.
 * [Desert Ant Labs](https://github.com/Desert-Ant-Labs/desert-ant-core) - Small task models (speech recognition, PII redaction, moderation, language ID) behind one SDK for Swift, Kotlin and JavaScript.
 * [FRACTAL](https://github.com/Fractal-Compute-Orchestrations/FractalWorkspace) - Source-available non-commercial framework for thermal-gated Android edge training and pipeline-sliced inference, using 64-element micro-block INT4 quantization (7.1x wire reduction) and ExecuTorch partitioning.
+* [AudioSmith](https://github.com/hehehai/AudioSmith) - Open-source macOS app that runs speech models (Qwen3-TTS, Kokoro, VoxCPM2, Qwen3-ASR, Whisper) on Apple silicon GPUs with MLX from Go and Swift, without Python, for text to speech, voice cloning, transcription and dubbing; it serves them to other programs through a local OpenAI-compatible API and an MCP server.
 
 <!-- ############################################################################# -->
 
