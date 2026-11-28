@@ -58,6 +58,7 @@ Frameworks and runtimes designed for deploying models on edge devices.
 * [Kapitsa](https://github.com/nace-ai/kapitsa) - Native C++ LLM inference engine for Apple silicon Macs using hand-written Metal kernels and the Apple Neural Engine (no MLX or llama.cpp runtime), with OpenAI- and Anthropic-compatible APIs.
 * [Desert Ant Labs](https://github.com/Desert-Ant-Labs/desert-ant-core) - Small task models (speech recognition, PII redaction, moderation, language ID) behind one SDK for Swift, Kotlin and JavaScript.
 * [FRACTAL](https://github.com/Fractal-Compute-Orchestrations/FractalWorkspace) - Source-available non-commercial framework for thermal-gated Android edge training and pipeline-sliced inference, using 64-element micro-block INT4 quantization (7.1x wire reduction) and ExecuTorch partitioning.
+* [Sol Next](https://github.com/chongyangzhang92-hub/Sol-Next) - Open-source (Apache-2.0) System-0 autonomous Android mobile agent built with Rust 2024 (`17,531+` LOC), `2,706` lines of hand-written ARM64 NEON/DotProd/I8MM/SVE2 assembly, Vulkan 1.1 Compute, NNAPI NPU, and offline `390 ms` Matcha-TTS (`RTF 0.066`). Compresses 10-step cross-app Android tasks from `28.4 s` / `~28k` tokens to `3.82 s` / `~2.6k` tokens on first run and `0.145 s` / `0` cloud LLM tokens on crystallized System-0 replay (`ΔC_prompt ≡ 0`, Android 10–16).
 
 <!-- ############################################################################# -->
 
